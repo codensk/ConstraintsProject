@@ -17,14 +17,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="nyg-2H-y5K">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="18" y="62" width="378" height="800"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7jX-ef-vNJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="401"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="378" height="392"/>
                                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AP8-0Y-I2x">
-                                        <rect key="frame" x="0.0" y="417" width="414" height="401"/>
+                                        <rect key="frame" x="0.0" y="408" width="378" height="392"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
@@ -34,9 +34,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nyg-2H-y5K" secondAttribute="bottom" id="8qh-Dj-GrK"/>
-                            <constraint firstItem="nyg-2H-y5K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Lhn-Vv-lpb"/>
-                            <constraint firstItem="nyg-2H-y5K" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PMY-Ab-2GF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nyg-2H-y5K" secondAttribute="trailing" id="RBU-MT-INF"/>
+                            <constraint firstItem="nyg-2H-y5K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="Lhn-Vv-lpb"/>
+                            <constraint firstItem="nyg-2H-y5K" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="PMY-Ab-2GF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nyg-2H-y5K" secondAttribute="trailing" constant="18" id="RBU-MT-INF"/>
                         </constraints>
                     </view>
                 </viewController>
